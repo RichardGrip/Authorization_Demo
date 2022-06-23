@@ -20,7 +20,7 @@ const Form = ({title, handleClick}) => {
                 placeholder="password"
             />
             <button
-                onClick={handleClick}
+                onClick={() => handleClick(email, pass)}
             >
                 {title}
             </button>
